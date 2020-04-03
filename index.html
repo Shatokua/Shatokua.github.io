@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <title>Frazioni</title>
+   <title></title>
 
+    <link href="css/bootstrap_default.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
-    <link rel="stylesheet"
-        type="text/css"
-        href="bootstrap.css"
-          />
-    <script src = "http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
-		<h1>Frazioni</h1>
+    <nav class = "navbar navbar-default">
 
-    <p id='firstPar' onclick="hello()">
-      Здесь будет видео про дроби
-    </p>
+      <div
+      class= "navbar-header">
+        <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#main_navbar"
+        aria-expanded="false">
+          open!</button>
+      </div>
 
-    <script type="text/javascript">
+      <div
+      class = "collapse navbar-collapse"
+      id="main_navbar"
+      >
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="math.html">Matematica</a>
+          </li>
+          <li>
+            <a href="science.html">Scienza</a>
+          </li>
+          <li>
+            <a href="italian.html">Italiano</a>
+          </li>
+          <li >
+            <a href="english.html">Inglese</a>
+          </li>
 
-    	function hello() {
-    		alert('Hello');
-    	};
-    </script>
+        </ul>
+      </div>
+    </nav>
 
+    <div class="container">
+      <h1>Hello, it is my site!</h1>
+    </div>
 
-    <script src="sketch.js"></script>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+    </ol>
+    
   </body>
 </html>
